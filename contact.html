@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Kala family/css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALA - Contact</title>
+</head>
+<body>
+    
+    <div class="titre">
+        <h1>Nous Contacter</h1>
+    </div>
+    
+    <div class="container">
+        <form id="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" id="send-button">Envoyer</button>
+        </form>
+    </div>
+
+    <div class="basdepage">
+        <div class="left">
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="carte.html">Carte</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <img src="../Kala family/images/image-removebg-preview_cleanup (1).png" alt="">
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById('send-button').addEventListener('click', function() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+
+    var mailtoLink = 'mailto:fortwawa@gmail.com?subject=' + encodeURIComponent('Nouveau message de ' + name) +
+                     '&body=' + encodeURIComponent('Email: ' + email + '\n\nMessage: ' + message);
+
+    window.location.href = mailtoLink;
+});
+</script>
+</html>

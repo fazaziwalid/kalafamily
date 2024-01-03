@@ -1,0 +1,111 @@
+*{padding: O;margin: 0;font-family: oswald;}
+
+.image {
+   
+    width: 100%;
+    min-height: 525px;
+    background-image: url(https://snacksignature.fr/img/header.jpg);
+    width: 100%;
+    background: linear-gradient(rgb(135 117 117 / 44%), rgb(0 0 0 / 63%)), url(https://img.freepik.com/photos-premium/personne-prend-part-pizza-table-bois_889227-858.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: solid 10px #ff0404;
+}
+
+
+img#imagelogo {
+    width: 20%;
+    margin-left: 4%;
+}
+
+h3 {
+    margin-left: 5%;
+    font-size: 7vh;
+}
+
+#imagelogo{
+    flood-opacity: 0.7;
+}
+
+.parent {
+    padding-top: 14%;
+}
+
+.nav {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+a.link {
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 0px 30px 0px 30px;
+    background-color: #f90808fc;
+    font-size: 5vh;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+a.link:hover {
+    background-color: rgba(0, 0, 0, 0.285);
+    color: #f90808fc;
+}
+
+li.bouton {
+    display: contents;
+}
+
+.numero {
+    text-align: center;
+    padding: 2em;
+    color: darkred;
+}
+
+h1.num {
+    background-color: yellow;
+    width: 19%;
+    margin: auto;
+    border-radius: 25px;
+    border: solid;
+}
+
+img {
+    width: 24%;
+}
+
+.cadredescarrer {
+    display: flex;
+    text-align: center;
+}
+
+.titresandwich {
+    width: 75%;
+    margin: auto;
+    background-color: #0000005c;
+    border-radius: 25px;
+}
+
+h1.sandwich {
+    margin-left: 5%;
+}
+
+.imageplacer {
+    margin-top: 29px;
+}
